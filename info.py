@@ -1,11 +1,11 @@
 # ©️biisal jai shree krishna 😎
 from os import environ
 
-API_ID = environ.get("API_ID", "777060241")
+API_ID = environ.get("API_ID", "")
 API_HASH = environ.get("API_HASH", "")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 BOT_NAME = environ.get("BOT_NAME", "BISAL CHAT BOT")
-ADMIN = int(environ.get("ADMIN", ""))
+ADMIN = int(environ.get("ADMIN", "777060241"))
 CHAT_GROUP = int(environ.get("CHAT_GROUP", "-1001812797837"))
 ADMIN_NAME = environ.get("ADMIN_NAME", "Bisal")
 LOG_CHANNEL = environ.get("LOG_CHANNEL", "-1002002449152")
